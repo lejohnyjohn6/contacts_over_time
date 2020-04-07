@@ -1,1 +1,1 @@
-# contacts_over_time
+Estimating the number of individuals encountered over time
