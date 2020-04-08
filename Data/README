@@ -1,0 +1,14 @@
+Mobile phone bluetooth raw data is made available at https://figshare.com/articles/The_Copenhagen_Networks_Study_interaction_data/7267433 
+See bt_symmetric.csv in the above-mentioned website.
+
+Column names:
+	- timestamp: Timestamp in seconds from the beginning of the observation period (as reported by the device. 
+	- user A : ID of one user (ego).
+	- user B : ID of the other user (alter). 0–850 for participants of the study, −1 for empty scans, −2 for any non-participating device
+	- received signal strength : Received Signal Strength Indication, measured in dBm, a rough proxy for distance between devices (the higher the absolute value, the higher the distance)
+
+Summary: 5,474,289 records, 706 total users
+
+Notes:
+Empty scans are marked with user B = -1 and RSSI = 0
+Scans of devices outside of the experiment are marked with user B = -2. All non-experiment devices are given the same ID.
